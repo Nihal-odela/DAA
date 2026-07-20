@@ -26,7 +26,7 @@ bubble_sort(arr)
 
 end_time = time.perf_counter()
 
-print("\nSorted List:", arr)
+print("\nSorted List(Bubble sort):", arr)
 print(f"Execution Time: {end_time - start_time:.8f} seconds")
 print("\nTime Complexity:")
 print("Best Case    : O(n)    (Already Sorted)")
