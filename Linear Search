@@ -1,0 +1,23 @@
+import time
+arr = [23,19,2,10,26]
+search = int(input("Enter the element to search:"))
+
+start_time = time.time()
+
+found = False
+for i in range(len(arr)):
+  if(arr[i] == search):
+    print("Element found at index:",i)
+    found = True
+    break
+if not found:
+  print("Element not found!")
+
+end_time = time.time()
+execution_time = end_time - start_time
+
+print("Execution Time:", execution_time, "seconds")
+print("\nTime Complexity:")
+print("Best Case   : O(1)")
+print("Average Case: O(n)")
+print("Worst Case  : O(n)")
