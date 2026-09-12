@@ -12,7 +12,6 @@ Every sorting technique has its pros and cons. Basic techniques are helpful for 
 
 #SUMMARY-SEARCH ALGORITHMS
 Linear Search algorithm looks at each data item one after another till it locates the desired item. This method is easy and can be used to search data that is sorted as well as unsorted.
-
 Binary Search method divides a sorted list into two equal parts and looks for the desired item only in the part containing the item.
 #CONCLUSION
 Linear Search is easier to program but not as efficient, whereas Binary Search is quicker and more efficient provided that the elements are sorted. Hence, Binary Search is better for huge amounts of sorted data, while Linear Search is better for small and unsorted data.
