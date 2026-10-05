@@ -37,3 +37,36 @@ The factorial of a number was implemented using both iterative and recursive met
 Conclusion :
 The iterative method is more memory-efficient, while the recursive method provides a simpler mathematical implementation. Both methods have O(n) time complexity.
 
+Practical - 05
+
+Summary :
+Dynamic Programming is used to solve the Knapsack Problem by dividing the problem into many sub-problems and saving their results in order to solve the main problem. This leads to finding the maximum possible value for selecting some items based on the given capacity.
+
+Conclusion :
+The Dynamic Programming technique is a very effective and optimal solution technique for solving the Knapsack Problem since it does not make redundant calculations and keeps the results of previous calculations.
+
+Practical - 06
+
+Summary :
+The solution for Chain Matrix Multiplication comes under Dynamic Programming and involves breaking down the problem into sub-problems of matrix chains. This approach determines the least number of multiplications needed in order to multiply the matrices efficiently.
+
+Conclusion :
+Dynamic Programming provides an efficient method for finding the optimal multiplication order of a matrix chain. It reduces unnecessary calculations and minimizes the total number of scalar multiplications, improving the overall efficiency of the algorithm.
+
+Practical - 07
+
+Summary :
+The Making Change Problem is solved using Dynamic Programming by breaking the problem into smaller amounts and storing the minimum number of coins needed for each amount. This avoids repeated calculations and helps find the optimal combination of coins.
+
+Conclusion :
+Dynamic Programming provides an efficient way to solve the Making Change Problem. It finds the minimum number of coins required for a given amount while reducing unnecessary computations through the use of previously calculated results.
+
+Practical - 08
+
+Summary :
+Graph searching is used to visit and explore the vertices of a graph. BFS (Breadth-First Search) visits nodes level by level using a queue, while DFS (Depth-First Search) explores as deeply as possible using recursion or a stack. Both methods are useful for traversing and searching graphs.
+
+Conclusion :
+BFS and DFS are fundamental graph-searching techniques. BFS is useful for finding the shortest path in an unweighted graph, while DFS is useful for exploring connected components and solving traversal-based problems. Both algorithms provide efficient ways to traverse a graph.
+
+
