@@ -69,4 +69,11 @@ Graph searching is used to visit and explore the vertices of a graph. BFS (Bread
 Conclusion :
 BFS and DFS are fundamental graph-searching techniques. BFS is useful for finding the shortest path in an unweighted graph, while DFS is useful for exploring connected components and solving traversal-based problems. Both algorithms provide efficient ways to traverse a graph.
 
+Practical - 09
+
+Summary :
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted graph. It starts with one vertex and repeatedly selects the minimum-weight edge that connects a visited vertex to an unvisited vertex.
+
+Conclusion :
+Prim’s Algorithm efficiently constructs a Minimum Spanning Tree with minimum total edge weight. It is useful for network design and optimization problems where all vertices need to be connected with minimum cost.
 
