@@ -77,3 +77,29 @@ Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree 
 Conclusion :
 Prim’s Algorithm efficiently constructs a Minimum Spanning Tree with minimum total edge weight. It is useful for network design and optimization problems where all vertices need to be connected with minimum cost.
 
+Practical - 10
+
+Summary :
+Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a connected, weighted graph. It sorts all edges in ascending order of weight and selects the smallest edges without forming a cycle until all vertices are connected.
+
+Conclusion :
+Kruskal’s algorithm efficiently finds the minimum spanning tree with the minimum total edge weight. It is useful in network design, road construction, and communication systems.
+
+Practical - 11
+
+Summary :
+The Floyd–Warshall algorithm finds the shortest paths between all pairs of vertices in a weighted graph by checking every vertex as an intermediate point.
+
+Conclusion :
+The algorithm calculates the shortest distances between all pairs of vertices using dynamic programming. Its time complexity is \(O(V^3)\), where \(V\) is the number of vertices.
+
+Practical - 12
+
+Summary :
+The Travelling Salesman Problem finds the shortest possible route that visits every city exactly once and returns to the starting city.
+
+Conclusion :
+The program checks all possible routes and selects the one with the minimum total distance. The brute-force approach has a time complexity of \(O(n!)\), making it suitable for a small number of cities.
+
+
+
